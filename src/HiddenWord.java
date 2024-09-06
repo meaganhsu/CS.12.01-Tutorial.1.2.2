@@ -28,4 +28,16 @@ public class HiddenWord {
 
         return hint;
     }
+    public int getLength() {
+        return length;
+    }
+    public String getWord() {
+        return word;
+    }
+    public void setLength(int length) {
+        this.length = length;
+    }
+    public void setWord(String word) {
+        this.word = word;
+    }
 }
